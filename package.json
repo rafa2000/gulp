@@ -1,7 +1,7 @@
 {
   "name": "gulp",
   "description": "The streaming build system",
-  "version": "3.8.10",
+  "version": "4.0.0-alpha.1",
   "homepage": "http://gulpjs.com",
   "repository": "gulpjs/gulp",
   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
@@ -23,11 +23,9 @@
   },
   "man": "gulp.1",
   "dependencies": {
-    "deprecated": "^0.0.1",
-    "gulp-cli": "^0.1.3",
-    "gulp-util": "^3.0.0",
-    "orchestrator": "^0.3.0",
-    "vinyl-fs": "^0.3.0"
+    "gulp-cli": "gulpjs/gulp-cli#4.0",
+    "undertaker": "^0.3.0",
+    "vinyl-fs": "wearefractal/vinyl-fs"
   },
   "devDependencies": {
     "coveralls": "^2.7.0",
